@@ -20,7 +20,7 @@ logger = require('../lib/spruce.js').init();
 testThemAll();
 
 var opts = {'useColor' : true,
-            'dateFormat' : '[%A, %B %d %y, %I:%M:%S.%f %p]',
+            'dateFormat' : '[%A, %B %d %y, %I:%M:%S.%l %p]',
             'stripNewlines' : false,
             'methods' : {'info' : { 'color' : 32}, 
                          'trace' : {'color' : 30},

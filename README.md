@@ -45,8 +45,8 @@ The variable 'spruce' will now be be an object with several functions:
     spruce.info('Yes! we have no bonanza!')
 
 produces this output:
-
-    [4-19-2011 9:48:15.515] INFO  [readme.js:3:8] - Yes! we have no bonanaza!
+    [2011-05-20 09:16:05.030] INFO  [readme.js:3:8] - Yes! we have no bonanaza!
+    
 Options 
 -------
 Everybody loves options! Spruce is highly configurable, so you can do a lot of neat stuff with it.  Here are the features it supports:
@@ -61,7 +61,8 @@ Everybody loves options! Spruce is highly configurable, so you can do a lot of n
 Here are the default options:
 
     var defaultOptions = {
-            'dateFormat' : '[%m-%d-%y %H:%M:%S.%l]',
+            'dateFormat' : '[%y-%m-%d %H:%M:%S.%l]',
+            'stripNewlines' : true,
             'methods' : {
                 'info' : {'lineNum' : false,
                             'color' : 30,
@@ -83,6 +84,9 @@ Here are the default options:
             'useColor' : false,
     };
 
+
+`stripNewlines` determines whether the logger should remove newlines from
+all log messages. This is useful when logging things like xml or json.
 
 `dateFormat` is the string used to specify how the date should appear. it uses standard strftime
 options, although I did not implement day of the year (%j) or week of the year (%u).  
