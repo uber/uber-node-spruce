@@ -1,6 +1,6 @@
 { 
     "name" : "spruce",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "description" : "Spruce Configurable Logging Library",
     "homepage" : "https://github.com/MarkPNeyer/spruce",
     "keywords" : ["log","logger", "logging"],
