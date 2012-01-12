@@ -1,4 +1,4 @@
-{ 
+{
     "name" : "spruce",
     "version" : "0.1.2",
     "description" : "Spruce Configurable Logging Library",
@@ -9,16 +9,16 @@
           "email" : "Mark@MarkPNeyer.com",
            "url" : "http://www.markpneyer.com"
         },
-    "repository" : 
+    "repository" :
         { "type" : "git",
             "url" :"git://github.com/MarkPNeyer/spruce.git"
         },
-    "bugs" :  { "web" : "http://github.com/MarkPNeyer/spruce/issues/"},
-    "directories" : 
+    "bugs" :  { "url" : "http://github.com/MarkPNeyer/spruce/issues/"},
+    "directories" :
     { "lib": "./lib",
-      "test": "./tests" 
+      "test": "./tests"
     },
-    "depdenencies" : {},
+    "dependencies" : {},
     "devDependencies" : {},
     "main" : "./lib/spruce.js"
 }
