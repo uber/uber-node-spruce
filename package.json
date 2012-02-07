@@ -1,19 +1,19 @@
 {
     "name" : "spruce",
-    "version" : "0.1.2",
+    "version" : "1.0.0",
     "description" : "Spruce Configurable Logging Library",
-    "homepage" : "https://github.com/MarkPNeyer/spruce",
+    "homepage" : "https://github.com/uber/uber-node-spruce",
     "keywords" : ["log","logger", "logging"],
     "author":
-        { "name" : "Mark P Neyer",
-          "email" : "Mark@MarkPNeyer.com",
-           "url" : "http://www.markpneyer.com"
+        { "name" : "Amos Barreto",
+          "email" : "amos@uber.com",
+           "url" : "https://github.com/uber/uber-node-spruce"
         },
     "repository" :
         { "type" : "git",
-            "url" :"git://github.com/MarkPNeyer/spruce.git"
+            "url" :"git@github.com:uber/uber-node-spruce.git"
         },
-    "bugs" :  { "url" : "http://github.com/MarkPNeyer/spruce/issues/"},
+    "bugs" :  { "url" : "https://github.com/uber/uber-node-spruce/issues/"},
     "directories" :
     { "lib": "./lib",
       "test": "./tests"
