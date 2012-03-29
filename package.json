@@ -1,6 +1,6 @@
 {
     "name" : "spruce",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "description" : "Spruce Configurable Logging Library",
     "homepage" : "https://github.com/uber/uber-node-spruce",
     "keywords" : ["log","logger", "logging"],
