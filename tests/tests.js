@@ -6,6 +6,7 @@ function testThemAll(){
     for (var level in logger) {
         logger[level]('this is a ' + level);
         logger[level]('this \nis \n\ra\r stupid \rdarn\r' + level + ' with newlines.');
+	logger[level]('this is a printf-style %s for "C"ool Dudes.', level);
     }
     console.log ('---- Done testing  ---- \n');
 }

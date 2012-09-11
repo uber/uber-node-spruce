@@ -1,6 +1,6 @@
 {
     "name" : "spruce",
-    "version" : "1.0.1",
+    "version" : "1.0.2",
     "description" : "Spruce Configurable Logging Library",
     "homepage" : "https://github.com/uber/uber-node-spruce",
     "keywords" : ["log","logger", "logging"],
@@ -9,6 +9,9 @@
           "email" : "amos@uber.com",
            "url" : "https://github.com/uber/uber-node-spruce"
         },
+    "contributors": [
+        "David Ellis <ellis@uber.com>"
+    ],
     "repository" :
         { "type" : "git",
             "url" :"git@github.com:uber/uber-node-spruce.git"
@@ -18,7 +21,9 @@
     { "lib": "./lib",
       "test": "./tests"
     },
-    "dependencies" : {},
+    "dependencies" : {
+    	"sprintf": "0.1.0"
+    },
     "devDependencies" : {},
     "main" : "./lib/spruce.js"
 }
