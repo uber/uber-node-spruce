@@ -1,9 +1,9 @@
 var spruce = require('../lib/spruce').init();
-var sys = require('sys');
+var util = require('util');
 spruce.info('Yes! we have no bonanaza!');
 
     var sendMail = function (msg){
-        console.log('Sending '+sys.inspect(msg,true));
+        console.log('Sending '+util.inspect(msg,true));
     };
     var makeMessageBody = function(message){
         return 'what ' + message;
@@ -16,10 +16,10 @@ spruce.info('Yes! we have no bonanaza!');
             //do some hackery here
         };
      var options = { 'methods' :
-                        { 'error' : 
+                        { 'error' :
                             { 'handlers' :  [ emailDevelopers ]},
                         }
-                    }; 
+                    };
 
     var spruce = require('../lib/spruce').init(options);
     spruce.error('My eyes! The goggles do nothing!');
